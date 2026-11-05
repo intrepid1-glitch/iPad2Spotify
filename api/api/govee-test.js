@@ -1,6 +1,6 @@
 
 var https = require('https');
-var lib = require('./_lib');
+var lib = require('../_lib');
 
 module.exports = function (req, res) {
   res.setHeader('Cache-Control', 'no-store');
